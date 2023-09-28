@@ -2,11 +2,11 @@
             width: 400px;
             background-color: black;
             color: aqua;
+            text-align: right;
         }
 
-        .numbers {
-            display: grid;
-            grid-template-columns: repeat(3, 100px); 
+        .numbers{
+            display: flex;
         }
 
         .numbers button {
@@ -40,6 +40,7 @@
        }
        .mergerDiv{
         display: flex;
+        
        }
        .asd1 {
         display: flex;
@@ -60,4 +61,6 @@
        }
        #equal {
         background-color: orange;
+        height: 156.8px;
        }
+      
