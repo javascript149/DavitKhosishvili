@@ -10,3 +10,4 @@ function showMore() {
         showMoreButton.innerHTML = "Show More";
     }
 }
+
