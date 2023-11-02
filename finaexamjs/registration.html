@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/registration.css">
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+        <form id="registration-form">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <br>
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+            <br>
+            <label for="email">Email (Gmail format):</label>
+            <input type="email" id="email" required>
+            <span id="email-message" style="color: red;"></span>
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <span id="username-message" style="color: red;"></span>
+            <br>
+            <label for="password">Password (at least 8 characters):</label>
+            <input type="password" id ="password" required>
+            <span id="password-message" style="color: red;"></span>
+            <br>
+            <button type="button" id="register-btn">Register</button>
+        </form>
+
+        
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+    <script type="text/javascript" src="scripts/registration.js"></script>
+</body>
+</html>
